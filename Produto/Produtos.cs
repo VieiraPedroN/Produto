@@ -12,7 +12,7 @@ namespace Produto
         public int Quantidade { get; set; }
     }
 
-    public class ProdutoRepository
+    public class ProdutoBanco
     {
         private string connectionString = "Host=localhost;Username=seu_usuario;Password=sua_senha;Database=Produtos";
 
